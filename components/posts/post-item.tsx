@@ -8,7 +8,7 @@ type Props = {
 };
 
 const PostItem = ({ post }: Props) => {
-  const { title, image, excert, slug, date } = post;
+  const { title, image, excerpt, slug, date } = post;
 
   const formattedDate = new Date(date).toLocaleDateString("pt-PT", {
     day: "numeric",
@@ -16,18 +16,24 @@ const PostItem = ({ post }: Props) => {
     year: "numeric",
   });
 
-  const imagePath = `/images/posts/${slug}`;
+  const linkPath = `posts/${slug}`;
 
   return (
     <li className={classes.post}>
-      <Link href={imagePath}>
+      <Link href={linkPath}>
         <div className={classes.image}>
-          <Image src={image} alt={title} width={300} height={200} />
+          <Image
+            src={image}
+            alt={title}
+            width={300}
+            height={200}
+            layout="responsive"
+          />
         </div>
         <div>
           <h3>{title}</h3>
           <time>{formattedDate}</time>
-          <p>{excert}</p>
+          <p>{excerpt}</p>
         </div>
       </Link>
     </li>

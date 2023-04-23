@@ -8,10 +8,10 @@ isFeatured: true
 
 # Ode à Lua
 
-Ó Lua, tua luz prateada <p>
-Reflete-se em meu rosto, minha alma <p>
-De ti, ó sábia e misteriosa senhora, <p>
-O que mais poderia desejar? <p><p>
+Ó Lua, tua luz prateada
+Reflete-se em meu rosto, minha alma
+De ti, ó sábia e misteriosa senhora,
+O que mais poderia desejar?
 
 Tu que rege as marés e as emoções
 Que inspira poetas e amantes,

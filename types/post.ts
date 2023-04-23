@@ -7,3 +7,9 @@ export type Post = {
   content: string;
   isFeatured: boolean;
 };
+
+export type ContactDetails = {
+  email: string;
+  name: string;
+  message: string;
+};

@@ -1,6 +1,5 @@
 import PostContent from "@/components/posts/post-detail/post-content";
 import { getPostData, getPostsFiles } from "@/lib/posts-util";
-import { Post } from "@/types/post";
 import { GetStaticPropsContext } from "next";
 import { AppProps } from "next/dist/shared/lib/router/router";
 import { ParsedUrlQuery, stringify } from "querystring";

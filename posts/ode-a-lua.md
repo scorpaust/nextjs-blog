@@ -33,7 +33,7 @@ Eu te canto essa ode,
 Em louvor à tua beleza e sabedoria,
 E a tudo o que representas para nós, seres humanos.
 
-```js:
+<!-- ```js:
 const sendIt = sendEmail(message) => {
   message = "Email sent";
 
@@ -42,4 +42,4 @@ const sendIt = sendEmail(message) => {
 
 sendIt("Olá, Mundo!");
 
-```
+``` -->
